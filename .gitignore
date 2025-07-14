@@ -1,0 +1,54 @@
+# Java build output
+/target/
+/build/
+/out/
+/bin/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and sensitive files
+*.log
+*.env
+*.key
+*.jks
+*.pem
+
+# Gradle (if applicable)
+/.gradle/
+
+# Misc
+*.class
